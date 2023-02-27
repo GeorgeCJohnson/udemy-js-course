@@ -14,9 +14,6 @@ console.log(population/2)
 console.log (population>finland)
 console.log (avgCountry>population)
 
-const description1= "The " +
-country + " is in "
-+ continent + " which has a population of "
-+ population + " and it's 1005 people speak " + language;
+const description1= `The ${country} is in ${continent}, and its ${population} people speak ${language}`;
 
 console.log (description1)
