@@ -45,7 +45,7 @@ console.log('Only 1 border!');
 } else if(numNeighbors > 1) { 
     console.log("More than one border");
 } else {
-    console.log("No border ?!");
+    console.log("No borders ?!");
 }
     
     
