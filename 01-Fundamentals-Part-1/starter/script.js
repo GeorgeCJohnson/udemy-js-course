@@ -1,8 +1,8 @@
-let country="United States";
+const country="United States";
 let continent="North America";
 let population="5,000,000,000";
-let isIsland="false";
-let language;
+const isIsland="false";
+let language="English";
 
 console.log (typeof isIsland);
 console.log (typeof population);
