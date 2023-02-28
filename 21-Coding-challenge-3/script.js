@@ -1,10 +1,16 @@
-let dolphinsScore = Number(96, 108, 89);
-console.log()
-let koalasScore = Number(88, 91, 110);
+let dolphinsScore = ((96 + 108 + 89) /3);
 
-if (dolphinsScore / 3 > koalasScore / 3) 
+let koalasScore = ((96 + 108 + 89) / 3);
+
+if (dolphinsScore > koalasScore) 
 
 {console.log("Dolphins win!");
-} else {
+} 
+else if (koalasScore / 3 > dolphinsScore / 3)
+{
     console.log("Koala's win!!");
+} else
+
+{
+    console.log("It's a draw!")
 }
