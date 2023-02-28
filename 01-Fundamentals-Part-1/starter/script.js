@@ -35,15 +35,36 @@
 // }
 
 
-const day = "Saturday";
+// const day = "Saturday";
 
-if (day === "Monday") {
-    console.log("Monday");
-} else if (day === "Tuesday") {
-    console.log("Tuesday");
-} else if (day === "Wednesday" || day ==="Thursday") {
-    console.log("middle");
-} else {
-    console.log("other");
-}
+// if (day === "Monday") {
+//     console.log("Monday");
+// } else if (day === "Tuesday") {
+//     console.log("Tuesday");
+// } else if (day === "Wednesday" || day ==="Thursday") {
+//     console.log("middle");
+// } else {
+//     console.log("other");
+// }
+const language="Portugese"
 
+switch(language) {
+    case "Chinese": 
+    case "Mandarin":
+        console.log("MOST number of native speakers");
+        break;
+    case "Spanish":
+        console.log("2nd place in number of native speakers");
+        break;
+    case "English": 
+        console.log("3rd place");
+        break;
+    case "Hindi":
+        console.log("Number 4");
+        break;
+    case "arabic":
+        console.log("5th most spoken language");
+        break;
+        default:
+            console.log("Great language too :D");
+}        
