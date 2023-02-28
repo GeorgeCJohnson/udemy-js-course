@@ -1,5 +1,5 @@
-let dolphinsScore = ((96 + 108 + 55) /3);
-let koalasScore = ((96 + 108 + 78) / 3);
+let dolphinsScore = ((96 + 108 + 908) / 3);
+let koalasScore = ((96 + 108 + 908) / 3);
 console.log(dolphinsScore, koalasScore)
 if (dolphinsScore > koalasScore && dolphinsScore >= 100){
     console.log("Dolphins win! 🏆");
