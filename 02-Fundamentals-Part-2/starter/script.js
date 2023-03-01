@@ -26,15 +26,22 @@
 // const combo3= percentageOfWorld1("Finland", 6, 6 / 7900 * 100);
 // console.log(combo3);
 
-function percentageOfWorld1(population) {
-    return (population / 7900) * 100;
-}
+// function percentageOfWorld1(population) {
+//     return (population / 7900) * 100;
+// }
 
-const percentageOfWorld2 = function (population) {
-    return (population / 7900) *100;
-};
+// const percentageOfWorld2 = function (population) {
+//     return (population / 7900) *100;
+// };
 
-const percPortugal1= percentageOfWorld1(10);
-const percChina= percentageOfWorld1(1441);
-const perUSA1= percentageOfWorld1(332);
+// const percPortugal1= percentageOfWorld1(10);
+// const percChina= percentageOfWorld1(1441);
+// const perUSA1= percentageOfWorld1(332);
+// console.log(percPortugal1, percChina, percPortugal1);
+
+const percentageOfWorld3 = population => (population / 7900 * 100);
+const percPortugal1= percentageOfWorld3(10);
+const percChina= percentageOfWorld3(1441);
+const perUSA1= percentageOfWorld3(332);
 console.log(percPortugal1, percChina, percPortugal1);
+
