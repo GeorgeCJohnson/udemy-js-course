@@ -12,12 +12,4 @@
 //  else {console.log('There is no winner');}   
 'use strict'
 
-const calcAverage = gameAvg => gameAvg / 3;
-    // console.log(calcAverage);
-function checkWinner(game1, game2, game3) {
-    const dolphinsScores = (44, 23, 71);
-    console.log(checkWinner);
-    
-
-}
 
