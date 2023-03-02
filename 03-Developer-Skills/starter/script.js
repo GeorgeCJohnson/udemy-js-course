@@ -24,3 +24,10 @@ neighbors.push ('Utopia');
 console.log(neighbors);
 neighbors.pop();
 console.log(neighbors);
+
+if (neighbors.includes ['germany'])
+console.log("Must be a European country")
+    else (
+        console.log("Must not be a European country.")
+    )
+
