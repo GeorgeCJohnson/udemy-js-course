@@ -1,4 +1,4 @@
-'use strict'
+    'use strict'
 
 const calcAverage = (game1, game2, game3) => (game1 + game2 + game3) / 3;
 
